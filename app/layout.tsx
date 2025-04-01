@@ -1,4 +1,4 @@
-import Script from 'next/script';
+// Script导入已移除，因为未使用
 import type { Metadata } from 'next';
 import './globals.css';
 import { Layout } from '@/components/layout';

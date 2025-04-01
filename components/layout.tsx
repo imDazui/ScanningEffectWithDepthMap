@@ -2,7 +2,7 @@
 
 import NextLink from 'next/link';
 import { ReactNode } from 'react';
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation'; // 已移除未使用的导入
 
 const tags = [
   {
@@ -34,7 +34,8 @@ const Link = ({
 };
 
 export const Layout = () => {
-  const pathname = usePathname();
+  // pathname变量已移除，因为未使用
+  // const pathname = usePathname();
 
   return (
     <div
