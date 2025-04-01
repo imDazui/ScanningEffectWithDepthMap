@@ -6,16 +6,8 @@ import { usePathname } from 'next/navigation';
 
 const tags = [
   {
-    name: '#WebGPU',
-    href: 'https://tympanus.net/codrops/demos/?tag=webgpu',
-  },
-  {
-    name: '#Three.js',
-    href: 'https://tympanus.net/codrops/demos/?tag=three-js',
-  },
-  {
-    name: '#TSL',
-    href: 'https://tympanus.net/codrops/demos/?tag=tsl',
+    name: '#coming',
+    href: 'https://pinla.app',
   },
 ];
 
@@ -59,43 +51,9 @@ export const Layout = () => {
           }}
         >
           <div className="flex items-center space-y-2 flex-col md:grid grid-cols-3">
-            <Link target="_blank" href={'https://tympanus.net/codrops/demos/'}>
-              ( All demos )
-            </Link>
-
-            <Link
-              href="https://tympanus.net/codrops/?p=90674"
-              className="md:text-center"
-            >
-              ( Article )
-            </Link>
 
             <div className="md:justify-items-end">
               <div className="flex space-x-4">
-                {[
-                  {
-                    href: '/effect1/',
-                    name: 'Effect/1',
-                  },
-                  {
-                    href: '/effect2/',
-                    name: 'Effect/2',
-                  },
-                  {
-                    href: '/effect3/',
-                    name: 'Effect/3',
-                  },
-                ].map((item, index) => {
-                  return (
-                    <Link
-                      className={pathname === item.href ? 'underline' : ''}
-                      key={index}
-                      href={item.href}
-                    >
-                      {item.name}
-                    </Link>
-                  );
-                })}
               </div>
             </div>
           </div>
@@ -116,12 +74,6 @@ export const Layout = () => {
             gridColumn: '1/4',
           }}
         >
-          <Link
-            href={'https://github.com/d3adrabbit/ScanningEffectWithDepthMap'}
-            target="_blank"
-          >
-            Github
-          </Link>
 
           <div className="space-x-2">
             {tags.map((item, index) => {
@@ -141,8 +93,8 @@ export const Layout = () => {
             gridColumn: '7/8',
           }}
         >
-          <Link href={'https://x.com/deadrabbbbit'} target="_blank">
-            Made by deadrabbbbit
+          <Link href={'https://10lab.in/'} target="_blank">
+            Made by 10Lab
           </Link>
         </div>
       </div>

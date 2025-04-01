@@ -4,8 +4,8 @@ import './globals.css';
 import { Layout } from '@/components/layout';
 
 export const metadata: Metadata = {
-  title: 'Scanning effect with depth map | Codrops',
-  description: 'Scanning effect with depth map',
+  title: 'PINLA',
+  description: '',
 };
 
 export default function RootLayout({
@@ -15,19 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script
-          src="//tympanus.net/codrops/adpacks/analytics.js"
-          strategy="beforeInteractive"
-        />
-      </head>
+      <head></head>
       <body className="text-white">
         <Layout />
         {children}
-        <Script
-          src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
