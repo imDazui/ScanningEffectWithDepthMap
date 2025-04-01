@@ -2,12 +2,6 @@
 
 A WebGPU-powered visual experiment that explores a scanning effect using a depth map and procedural masking, rendered with custom shaders and animated in real time.
 
-![Image Title](https://tympanus.net/codrops/wp-content/uploads/2025/03/scaneffect_featured.jpg)
-
-[Article on Codrops](https://tympanus.net/codrops/?p=90674)
-
-[Demo](https://tympanus.net/Development/ScanEffect/)
-
 ## Installation
 
 ```bash
